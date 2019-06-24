@@ -14,6 +14,8 @@
 		AAD3204D22BE401500BEAF15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD3204B22BE401500BEAF15 /* LaunchScreen.storyboard */; };
 		AAD3205822BE401500BEAF15 /* iOSExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD3205722BE401500BEAF15 /* iOSExamplesTests.swift */; };
 		AAD3206322BE401500BEAF15 /* iOSExamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD3206222BE401500BEAF15 /* iOSExamplesUITests.swift */; };
+		AAD3207122BE44C600BEAF15 /* CanvasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD3207022BE44C600BEAF15 /* CanvasController.swift */; };
+		AAD3207422BE463C00BEAF15 /* GaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD3207322BE463C00BEAF15 /* GaugeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		AAD3205E22BE401500BEAF15 /* iOSExamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSExamplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAD3206222BE401500BEAF15 /* iOSExamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSExamplesUITests.swift; sourceTree = "<group>"; };
 		AAD3206422BE401500BEAF15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAD3207022BE44C600BEAF15 /* CanvasController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasController.swift; sourceTree = "<group>"; };
+		AAD3207322BE463C00BEAF15 /* GaugeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		AAD3204122BE401400BEAF15 /* iOSExamples */ = {
 			isa = PBXGroup;
 			children = (
+				AAD3207222BE461900BEAF15 /* Views */,
 				AAD3204222BE401400BEAF15 /* AppDelegate.swift */,
 				AAD3204422BE401400BEAF15 /* ViewController.swift */,
 				AAD3204622BE401400BEAF15 /* Main.storyboard */,
 				AAD3204922BE401500BEAF15 /* Assets.xcassets */,
 				AAD3204B22BE401500BEAF15 /* LaunchScreen.storyboard */,
 				AAD3204E22BE401500BEAF15 /* Info.plist */,
+				AAD3207022BE44C600BEAF15 /* CanvasController.swift */,
 			);
 			path = iOSExamples;
 			sourceTree = "<group>";
@@ -123,6 +129,14 @@
 				AAD3206422BE401500BEAF15 /* Info.plist */,
 			);
 			path = iOSExamplesUITests;
+			sourceTree = "<group>";
+		};
+		AAD3207222BE461900BEAF15 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AAD3207322BE463C00BEAF15 /* GaugeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +272,8 @@
 			files = (
 				AAD3204522BE401400BEAF15 /* ViewController.swift in Sources */,
 				AAD3204322BE401400BEAF15 /* AppDelegate.swift in Sources */,
+				AAD3207422BE463C00BEAF15 /* GaugeView.swift in Sources */,
+				AAD3207122BE44C600BEAF15 /* CanvasController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
