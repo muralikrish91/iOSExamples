@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     var tableView:UITableView!
-    let items = ["Custom View","Custom Drawing"]
+    let items = ["Custom Drawing","Scroll View", "Networking","Stack View", "Collection View", "Animation", "Core Graphics" ]
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView = UITableView()
@@ -47,9 +47,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        if indexPath.row == 0 {
         let canvas = CanvasController()
         self.navigationController?.pushViewController(canvas, animated: true)
-        tableView.deselectRow(at: indexPath, animated: true)
+        }else {
+            let scViewController = ScrollViewController(nibName: "ScrollViewController", bundle: nil)
+            self.navigationController?.pushViewController(scViewController, animated: true)
+
+        }
     }
 
     override func didReceiveMemoryWarning() {

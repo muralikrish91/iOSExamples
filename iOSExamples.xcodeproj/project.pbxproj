@@ -16,6 +16,8 @@
 		AAD3206322BE401500BEAF15 /* iOSExamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD3206222BE401500BEAF15 /* iOSExamplesUITests.swift */; };
 		AAD3207122BE44C600BEAF15 /* CanvasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD3207022BE44C600BEAF15 /* CanvasController.swift */; };
 		AAD3207422BE463C00BEAF15 /* GaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD3207322BE463C00BEAF15 /* GaugeView.swift */; };
+		AAD3207722C0B8A200BEAF15 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD3207522C0B8A200BEAF15 /* ScrollViewController.swift */; };
+		AAD3207822C0B8A200BEAF15 /* ScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAD3207622C0B8A200BEAF15 /* ScrollViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		AAD3206422BE401500BEAF15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAD3207022BE44C600BEAF15 /* CanvasController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasController.swift; sourceTree = "<group>"; };
 		AAD3207322BE463C00BEAF15 /* GaugeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeView.swift; sourceTree = "<group>"; };
+		AAD3207522C0B8A200BEAF15 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		AAD3207622C0B8A200BEAF15 /* ScrollViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				AAD3204B22BE401500BEAF15 /* LaunchScreen.storyboard */,
 				AAD3204E22BE401500BEAF15 /* Info.plist */,
 				AAD3207022BE44C600BEAF15 /* CanvasController.swift */,
+				AAD3207522C0B8A200BEAF15 /* ScrollViewController.swift */,
+				AAD3207622C0B8A200BEAF15 /* ScrollViewController.xib */,
 			);
 			path = iOSExamples;
 			sourceTree = "<group>";
@@ -246,6 +252,7 @@
 				AAD3204D22BE401500BEAF15 /* LaunchScreen.storyboard in Resources */,
 				AAD3204A22BE401500BEAF15 /* Assets.xcassets in Resources */,
 				AAD3204822BE401400BEAF15 /* Main.storyboard in Resources */,
+				AAD3207822C0B8A200BEAF15 /* ScrollViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +279,7 @@
 			files = (
 				AAD3204522BE401400BEAF15 /* ViewController.swift in Sources */,
 				AAD3204322BE401400BEAF15 /* AppDelegate.swift in Sources */,
+				AAD3207722C0B8A200BEAF15 /* ScrollViewController.swift in Sources */,
 				AAD3207422BE463C00BEAF15 /* GaugeView.swift in Sources */,
 				AAD3207122BE44C600BEAF15 /* CanvasController.swift in Sources */,
 			);
